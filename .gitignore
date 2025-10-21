@@ -1,0 +1,14 @@
+# Bỏ qua node_modules ở cả FE và BE
+frontend/node_modules/
+backend/node_modules/
+
+# Bỏ qua các file môi trường (chứa mật khẩu, API key)
+# RẤT QUAN TRỌNG ĐỂ BẢO MẬT
+.env
+frontend/.env
+backend/.env
+
+# Bỏ qua các file build/log
+/build
+/dist
+*.log
