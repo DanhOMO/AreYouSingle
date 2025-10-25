@@ -6,5 +6,6 @@ export type AuthStackParamList = {
 export type MainStackParamList = {
   Swipe: undefined;
   Matches: undefined;
-  // ... các màn hình chính khác
+  Home: undefined;
+  Welcome: undefined;
 };

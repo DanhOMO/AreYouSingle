@@ -4,12 +4,10 @@
   "compilerOptions": {
     "ignoreDeprecations": "6.0",
     "strict": true,
-    // Bắt đầu thêm từ đây
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"] 
-      // Hoặc nếu bạn dùng thư mục src: "@/components/*": ["./src/components/*"]
-    }
-    // Kết thúc phần thêm
+      "@/*": ["./*"]
+    },
+    "jsx": "react-native"
   }
 }
